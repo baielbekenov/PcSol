@@ -1,0 +1,5 @@
+com\example\securitycore\dto\UserDTO.class
+com\example\securitycore\SecuritycoreApplication.class
+com\example\securitycore\service\UserService.class
+com\example\securitycore\exception\UserNotFoundException.class
+com\example\securitycore\entities\User.class

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="shared" />
+        <module name="generalapi" />
+        <module name="catalogcore" />
+        <module name="catalogapplication" />
+        <module name="securitycore" />
+      </profile>
+      <profile name="Annotation profile for securityapplication" enabled="true">
+        <sourceOutputDir name="../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="securityapplication" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="PcSol" target="21" />
+      <module name="securityapplication (1)" target="21" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="PcSol" options="-parameters" />
+      <module name="catalogapplication" options="-parameters" />
+      <module name="catalogcore" options="-parameters" />
+      <module name="generalapi" options="-parameters" />
+      <module name="securityapplication" options="-parameters" />
+      <module name="securityapplication (1)" options="-parameters" />
+      <module name="securitycore" options="-parameters" />
+      <module name="shared" options="-parameters" />
+    </option>
+  </component>
+</project>
